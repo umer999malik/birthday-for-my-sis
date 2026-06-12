@@ -225,16 +225,15 @@ button:hover {
   border:4px solid white;
   box-shadow:0 8px 20px rgba(0,0,0,.25);
 }
-
 .single-photo{
-  width: 180px;
-  height: 220px;
-  object-fit: cover;
-  border-radius: 20px;
-  margin: 10px auto;
-  display: block;
-  border: 4px solid white;
-  box-shadow: 0 8px 20px rgba(0,0,0,.25);
+  width:130px;
+  height:170px;
+  object-fit:cover;
+  border-radius:15px;
+  margin:8px auto;
+  display:block;
+  border:4px solid white;
+  box-shadow:0 8px 20px rgba(0,0,0,.25);
 }
 .page-content{
   display: flex;
@@ -242,8 +241,7 @@ button:hover {
   align-items: center;
   text-align: center;
 }
-
 .page-content p{
-  margin-top: 10px;
-  line-height: 1.5;
+  margin:6px 0;
+  line-height:1.4;
 }
