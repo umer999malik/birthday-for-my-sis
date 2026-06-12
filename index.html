@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
   <div class="floating-hearts"></div>
 
   <audio id="bgMusic" loop>
@@ -14,88 +15,180 @@
   </audio>
 
   <main class="app">
+
+    <!-- COVER -->
     <section class="cover" id="cover">
       <div class="cover-card">
-        <p class="small">A little surprise for you</p>
-        <h1>For My Beautiful Sister ❤️</h1>
-        <p class="subtitle">Open this with a smile.</p>
-        <button class="primary-btn" id="startBtn">Start Surprise 🎵</button>
+        <p class="small">A little surprise for you ❤️</p>
+        <h1>Happy Birthday Sis 🎂</h1>
+        <p class="subtitle">Open this with a smile 😊</p>
+
+        <button class="primary-btn" id="startBtn">
+          Start Surprise 🎵
+        </button>
       </div>
     </section>
 
+    <!-- BOOK -->
     <section class="book-screen hidden" id="bookScreen">
+
       <div class="top-bar">
-        <button class="mini-btn" id="musicBtn">Pause Music</button>
-        <span id="pageCounter">Page 1 / 5</span>
+        <button class="mini-btn" id="musicBtn">
+          Pause Music
+        </button>
+
+        <span id="pageCounter">
+          Page 1 / 5
+        </span>
       </div>
 
       <div class="book" id="book">
+
+        <!-- PAGE 1 -->
         <article class="page active">
           <div class="page-content">
+
             <p class="page-label">Page 1</p>
+
             <h2>Happy Birthday, Sis 🎂</h2>
+
             <p>
-              Today is not just another day. It is the day Allah blessed our family with you.
-              May your life always be full of happiness, peace, success, and beautiful moments.
+              Today is not just another day.
+              It is the day Allah blessed our family with you.
+              May your life always be full of happiness,
+              peace, success and beautiful moments.
             </p>
+
           </div>
         </article>
 
+        <!-- PAGE 2 -->
         <article class="page">
           <div class="page-content">
+
             <p class="page-label">Page 2</p>
-            <h2>Our Memories ✨</h2>
+
+            <h2>Our Memories 📸</h2>
+
+            <div class="memory-gallery">
+
+              <img src="images/memory1.jpg"
+                   alt="Memory 1">
+
+              <img src="images/memory2.jpg"
+                   alt="Memory 2">
+
+            </div>
+
             <p>
-              From small laughs to random talks, every memory with you is special.
-              You are not only my sister, you are also one of the most precious people in my life.
+              From childhood memories to all the
+              fun moments we share today,
+              every memory with you is special.
             </p>
+
           </div>
         </article>
 
+        <!-- PAGE 3 -->
         <article class="page">
           <div class="page-content">
+
             <p class="page-label">Page 3</p>
+
             <h2>You Are Special 🌸</h2>
+
+            <img
+              src="images/memory3.jpg"
+              alt="Special Memory"
+              class="single-photo"
+            >
+
             <p>
-              I may not always say it, but I truly care about you. I pray that every dream in your heart becomes real
-              and every difficulty in your life becomes easy.
+              I may not always say it,
+              but I truly care about you.
+              I pray that every dream in your heart
+              becomes reality and every difficulty
+              becomes easy.
             </p>
+
           </div>
         </article>
 
+        <!-- PAGE 4 -->
         <article class="page">
           <div class="page-content">
+
             <p class="page-label">Page 4</p>
+
             <h2>A Small Message 💌</h2>
+
             <p>
-              Keep smiling, keep shining, and never forget how valuable you are.
-              May this birthday bring you a new chapter full of blessings and love.
+              Keep smiling.
+              Keep shining.
+              Never forget how valuable you are.
+
+              May this birthday bring a new chapter
+              full of blessings, happiness and love.
             </p>
+
           </div>
         </article>
 
+        <!-- FINAL PAGE -->
         <article class="page final-page">
           <div class="page-content">
-            <p class="page-label">Final Page</p>
+
+            <p class="page-label">
+              Final Page
+            </p>
+
             <h2>Congratulations 🎉</h2>
+
             <p>
-              Your birthday gift is unlocked! 🎁
+              Your birthday surprise is unlocked ❤️
             </p>
+
             <p class="gift-text">
-              Stay happy, sis. Your surprise is coming right now ❤️
+              Thank you for being such an amazing sister.
+              May Allah bless you with health,
+              happiness and success always.
             </p>
-            <button class="primary-btn" id="confettiBtn">Celebrate Again 🎊</button>
+
+            <button
+              class="primary-btn"
+              id="confettiBtn"
+            >
+              Celebrate Again 🎊
+            </button>
+
           </div>
         </article>
+
       </div>
 
       <div class="controls">
-        <button class="nav-btn" id="prevBtn">← Previous</button>
-        <button class="nav-btn" id="nextBtn">Next →</button>
+
+        <button
+          class="nav-btn"
+          id="prevBtn"
+        >
+          ← Previous
+        </button>
+
+        <button
+          class="nav-btn"
+          id="nextBtn"
+        >
+          Next →
+        </button>
+
       </div>
+
     </section>
+
   </main>
 
   <script src="script.js"></script>
+
 </body>
 </html>
